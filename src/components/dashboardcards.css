@@ -1,0 +1,60 @@
+/* /* .dashboard-section{
+    margin: 0 20px 10px 32px;
+} */
+
+.dashboard-cards {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+   
+   
+}
+.table{
+    background-color: var(--bgcolor);
+    margin: 0 10px 10px 20px;
+}
+.card:hover {
+    background-color: var(--bgcolor);
+    color: black;
+    transition: all 0.5s;
+}
+
+.card-title {
+    size: 10px;
+}
+
+.card {
+    background-color: #012970;
+    color: aliceblue;
+    width: 516px;
+    height: 150px;
+   cursor: pointer;
+ 
+}
+
+
+
+.dashboard-h1 {
+    margin-top: 20px;
+    color: #012970;
+    margin-left: 10px;
+}
+
+
+@media (min-width :100px) and (max-width:1199px) {
+    .card {
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width:566px) {
+    .dashboard-cards {
+
+        width: 90%;
+    }
+
+    #table-card {
+        margin-left: 0;
+        width: 100%;
+    }
+}  

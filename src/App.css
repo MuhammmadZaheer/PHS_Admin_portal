@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,800;1,900;1,1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*................. General.............. */
+:root {
+    scroll-behavior: smooth;
+    --primary: #415471;
+    --second: #717ff5;
+    --bgcolor: #f6f9ff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #444444;
+    background-color: var(--bgcolor);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a {
+    color: var(--primary);
+    text-decoration: none;
+    cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+a:hover {
+    color: var(--second);
+    text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Nunito', sans-serif;
+}
+
+@media (max-width: 600px) {
+
+    /* Header */
+    .header {
+        width: 100%;
+    }
+
+    /* Logo */
+    .logo {
+        width: 20px;
+    }
+
+    /* Search bar */
+    .search-bar {
+        display: none;
+    }
+
+    /* Main content */
+     .main {
+        margin-left: 0px;
+        width: 90%;
+    } 
+
+    #tabel-card {
+        margin-left: 0;
+        overflow-x: auto;
+        table-layout: auto
+    }
+
+    .cards {
+        width: 100%;
+        height: 60px;
+        margin-bottom: 5px;
+    }
 }

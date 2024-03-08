@@ -1,0 +1,22 @@
+.attendence-report-container{
+    display: flex;
+}
+.heading-report{
+    margin-top: 65px;
+    margin-left: 320px;
+}
+.upload-button-container{
+ 
+   margin: 65px 20px 0 auto;
+
+}
+.dataContext{
+    margin: 0 20px 20px 320px;
+}
+.file-status{
+    color: var(--second);
+    background:var(--bgcolor);
+    font-weight: 600;
+    display: block;
+    width: fit-content;
+}

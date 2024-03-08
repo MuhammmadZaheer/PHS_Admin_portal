@@ -1,0 +1,26 @@
+.app-details-cards {
+  border: 1px solid #8f8c8c;
+  border-radius: 10px;
+  width: 300px;
+  height: fit-content;
+  margin: 5px 5px 10px 10px;
+  padding: 5px;
+  display: inline-block;
+}
+.app-details-cards-app{
+  font-size: 14px;
+  color: #78A083;
+  font-family: 'Nunito', sans-serif;
+}
+.app-details-card-usage{
+  font-size: 14px;
+}
+.screen-shots{
+    display: inline-block;
+}
+.shots-img{
+    width: 200px;
+    height: 100px;
+    margin-right: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,37 @@
+#main {
+   
+
+    transition: all 0.3s;
+
+}
+
+.heading {
+    color: #012970;
+    font-size: 24px;
+    margin-left: 10px;
+     /* margin-top: 20px;  */
+
+}
+
+@media(max-width :1199px) {
+    #main {
+        padding: 20px;
+        margin-left: 300px;
+    }
+}
+
+@media (min-width :100px) and (max-width:1199px) {
+    #main {
+
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 1199px) {
+    #main {
+
+        margin-left: 30px;
+        width: 90%;
+
+    }
+}

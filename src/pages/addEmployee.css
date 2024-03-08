@@ -1,0 +1,38 @@
+/* .employeeAdd {
+   margin: 20px 10px 0 320px;
+}
+ */
+ /* .add-form{
+   align-items: center;
+ }
+form {
+  margin-left: 550px;
+   width: 100%;
+ 
+}
+.row{
+   padding-top:100px ;
+}
+
+
+@media (min-width:100px) and (max-width:1199px) {
+   .form {
+       margin-left: 150px;
+       width: 70%;
+   }
+} */
+.add-form{
+  display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.form{
+   width: 50%;
+   margin: 200px 10px 20px 50px;  
+}
+.form-check-radio {
+   margin-left: 10px;
+}
+.form-check-input{
+   cursor: pointer;
+}
